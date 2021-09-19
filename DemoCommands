@@ -13,3 +13,18 @@
    cd..
    aws s3 ls
    history // show history of commands used
+
+
+
+
+AWS CLI Commands
+=================
+aws configure
+The Configuring the AWS Command Line Interface documentation page lists various places where configuration files are stored, such as:
+
+Linux: ~/.aws/credentials
+Windows: C:\Users\USERNAME \.aws\credentials
+
+aws s3 ls
+
+aws s3 mb s3://weslee-static-website/ --region us-east-1
