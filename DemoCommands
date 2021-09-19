@@ -1,15 +1,15 @@
-    1  ls -clear
-    2  exit
-    3  aws s3 ls
-    4  aws configure
-    5  aws s3 ls
-    6  ls -la
-    7  cd .aws
-    8  ls -la
-    9  cat credentials
-   10  rm -rf credentials
-   11  ls -la
-   12  cd ..
-   13  cd..
-   14  aws s3 ls
-   15  history
+   ls -clear
+   sudo su - //Command to move to root access
+   aws s3 ls // command to list all buckets created in S3
+   aws configure // to configure AWS CLI
+   aws s3 ls 
+   ls -la // List all files and folders
+   cd .aws // move to new folder
+   ls -la
+   cat credentials // print contents of file
+   rm -rf credentials // delete file
+   ls -la
+   cd .. // move to previous folder
+   cd..
+   aws s3 ls
+   history // show history of commands used
