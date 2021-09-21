@@ -14,6 +14,11 @@
    aws s3 ls
    history // show history of commands used
 
+    aws s3 mb s3://wesleebucket21sep // create bucket on default region
+    aws s3 ls
+    aws s3 mb s3://wesleebucketmumbai --region ap-south-1 // create bucket on specific region
+
+
 
 
 
